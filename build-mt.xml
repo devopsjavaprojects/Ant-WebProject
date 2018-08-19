@@ -53,7 +53,7 @@
 			<fileset dir="${work.home}"/>
 			<classes dir="${work.home}/WEB-INF/classes"/>
 		</war>
-		<copy file="${war.home}/${app.name}.war" todir="${dist.home}" overwrite="true" />
+		<copy file="${war.home}/${app.name}test.war" todir="${dist.home}" overwrite="true" />
 	</target>
 
 	<target name="ear" >
