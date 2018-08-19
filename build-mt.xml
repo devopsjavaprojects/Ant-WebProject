@@ -49,7 +49,7 @@
 	
 	<target name="war" 
 	          description="Create WAR file for binary distribution">
-		<war destfile="${war.home}/${app.name}.war" webxml="${work.home}/WEB-INF/web.xml">
+		<war destfile="${war.home}/${app.name}test.war" webxml="${work.home}/WEB-INF/web.xml">
 			<fileset dir="${work.home}"/>
 			<classes dir="${work.home}/WEB-INF/classes"/>
 		</war>
